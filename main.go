@@ -99,6 +99,7 @@ type Config struct {
 }
 
 var (
+	//go:embed templates
 	FS embed.FS
 
 	db           *gorm.DB
